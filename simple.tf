@@ -4,15 +4,15 @@ provider "aws" {
 
 variable "acc_no" {
   type = string
-  default = "184003174229"
+ 
 }
 variable "access_key" {
   type = string
-  default = "AKIASVV3RT5KUG2YRANJ"
+  
 }
 variable "secret_access_key" {
   type = string
-  default = "xgC/CVovHD/48Cyrm6OwhIG5mpv5QbQKJ7GI5HTR"
+  
 }
 
 resource "aws_vpc" "hitech" {
