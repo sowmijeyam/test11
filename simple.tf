@@ -4,11 +4,10 @@ provider "aws" {
 
 variable "acc_no" {
   type = string
-  default = "869928091105"
 }
 variable "access_key" {
   type = string
- }
+}
 variable "secret_access_key" {
   type = string
 }
